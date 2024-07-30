@@ -1,0 +1,91 @@
+
+  .issue-credit-card-container {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .form-container {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  .issue-credit-card-container h1,
+  .issue-credit-card-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .issue-credit-card-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .issue-credit-card-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .issue-credit-card-container form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .issue-credit-card-container form input,
+  .issue-credit-card-container form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .issue-credit-card-container form button {
+    padding: 10px 15px;
+    background-color: #232423;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .issue-credit-card-container form button:hover {
+    background-color: #0d0e0d;
+  }
+  
+  .issue-credit-card-container .credit-card-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .issue-credit-card-container .credit-card-details p strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .issue-credit-card-container .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

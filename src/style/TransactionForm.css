@@ -1,0 +1,106 @@
+
+  .transaction-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  
+  .transaction-image-container {
+    flex: 0 0 calc(40% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+  
+  
+  .transaction-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  
+  .transaction-form-container {
+    flex: 0 0 calc(60% - 10px);
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 10px;
+  }
+  
+  
+  .transaction-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .transaction-form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transaction-form-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .transaction-form-container form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .transaction-form-container form input,
+  .transaction-form-container form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .transaction-form-container form button {
+    padding: 10px 10px;
+    background-color: #0d0d0d;
+    color: rgb(185, 234, 240);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    font-size: 16px;
+    
+  
+  }
+  
+  .transaction-form-container form button:hover {
+    background-color: #1c1d1c;
+  }
+  
+  .transaction-form-container .transaction-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .transaction-form-container .transaction-details p strong {
+    font-weight: bold;
+    color: #302f2f;
+  }
+  
+  
+  .transaction-form-container .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  

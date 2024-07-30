@@ -1,0 +1,43 @@
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    flex-direction: row;
+    height: 500px; 
+  }
+  
+  .image-section {
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .info-section {
+    flex: 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+  .info-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .info-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

@@ -1,0 +1,70 @@
+
+.customer-details-container {
+  display: flex;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+
+.customer-image-container {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+
+.customer-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.customer-details {
+  flex: 0 0 60%;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.customer-details h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+  text-align: center;
+}
+
+
+.customer-details p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #666666;
+}
+
+
+.customer-details p strong {
+  color: #333333;
+
+}
+
+.download-pdf-button{
+  margin-top :20px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: rgb(53, 140, 190);
+  color: white;
+  border: none;
+  
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+
+}
+.download-pdf-button:hover{
+  background-color: rgb(60, 61, 61);
+}

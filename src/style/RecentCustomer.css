@@ -1,0 +1,41 @@
+.recent-customer-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .recent-customer-title {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Table styles */
+  .recent-customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .recent-customer-table thead {
+    background-color: #f4f4f4;
+  }
+  
+  .recent-customer-table th,
+  .recent-customer-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .recent-customer-table th {
+    font-weight: bold;
+  }
+  
+  .recent-customer-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .recent-customer-table tbody tr:hover {
+    background-color: #eaeaea;
+  }
+  
